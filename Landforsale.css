@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fed28b;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.topnav {
+  overflow: hidden;
+  float: right;
+  padding-top: 20px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.active {
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.topnav-left {
+    float: left;
+    padding-right: 490px;
+}
+.topnav-left h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px #000000;
+
+}
+
+@media screen and (max-width: 1200px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+.clearfix2 {
+  clear: both;
+}
+div.scroll-container {
+    background-color: #fed28b;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+  h1 {
+    color: #000000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+  }
+  h2 {
+    color: #000000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h3 {
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+  p {
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+    font-style: italic;
+    margin-right: 10px;
+  }
+.bg-img {
+  background-image: url("Images/sea.jpg");
+  min-height: 380px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 100px ; 
+}
+
+.topnav2 {
+  overflow: hidden;
+  float: none;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.topnav2 a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.topnav2 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.Logo {
+  padding-left: 50px;
+  padding-top: 70px;
+}
+.topnav3 {
+  overflow: hidden;
+  float: none;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.email {
+  overflow: hidden;
+  float: none;
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.email a {
+  text-decoration: underline;
+  color: aliceblue;
+  font-size: 30px;
+}
+.Email-Logo {
+  overflow: hidden;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+.Numbers {
+  overflow: hidden;
+  float: none;
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Numbers p {
+  color: aliceblue;
+  font-size: 30px;
+}
+.Phone {
+  overflow: hidden;
+  float: none;
+  position: absolute;
+  top: 64%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+.Phone2 {
+  overflow: hidden;
+  float: none;
+  position: absolute;
+  top: 71%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
